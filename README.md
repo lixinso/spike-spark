@@ -4,6 +4,15 @@
 
 ![Cluster Overview](./cluster-overview.png)
 
+# Here are the biggest new features in Spark 3.0
+
+- 2x performance improvement on TPC-DS over Spark 2.4, enabled by adaptive query execution, dynamic partition pruning and other optimizations
+
+- ANSI SQL compliance
+- Significant improvements in pandas APIs, including Python type hints and additional pandas UDFs
+- Better Python error handling, simplifying PySpark exceptions
+- New UI for structured streaming
+- Up to 40x speedups for calling R user-defined functions
 
 # References
 
