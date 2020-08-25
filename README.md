@@ -2,6 +2,8 @@
 
 # Architecture
 
+![Cluster Overview](./cluster-overview.png)
+
 
 # References
 
