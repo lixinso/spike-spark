@@ -1,4 +1,4 @@
-# spike-spark
+# Spike Spark
 
 # Architecture
 
