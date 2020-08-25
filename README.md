@@ -4,6 +4,22 @@
 
 ![Cluster Overview](./cluster-overview.png)
 
+# Components
+
+- Unified analytics engine for large-scale data processing. 
+
+It provides high-level APIs in Java, Scala, Python and R, and an optimized engine that supports general execution graphs
+
+- MLLib
+
+- GraphX
+
+- Spark SQL
+
+- Structured Streaming
+
+
+
 # Here are the biggest new features in Spark 3.0
 
 - 2x performance improvement on TPC-DS over Spark 2.4, enabled by adaptive query execution, dynamic partition pruning and other optimizations
