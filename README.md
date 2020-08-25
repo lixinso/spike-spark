@@ -30,6 +30,10 @@ It provides high-level APIs in Java, Scala, Python and R, and an optimized engin
 - New UI for structured streaming
 - Up to 40x speedups for calling R user-defined functions
 
+# Spikes
+
+- TODO: Twitter streaming
+
 # References
 
  - [Spark Release 3.0](https://spark.apache.org/releases/spark-release-3-0-0.html)
