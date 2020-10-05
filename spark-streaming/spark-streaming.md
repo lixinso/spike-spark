@@ -1,5 +1,8 @@
 # Spark Streaming
 
+![](streaming-arch.png)
+
+![](streaming-flow.png)
 
 
 # References
