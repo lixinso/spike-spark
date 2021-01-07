@@ -12,3 +12,4 @@ Delta Engine provides optimized layouts and indexes for fast interactive queries
 # References
 
 - https://docs.databricks.com/delta/index.html#
+- https://docs.databricks.com/_static/notebooks/delta/optimize-sql.html
