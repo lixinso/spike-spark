@@ -32,11 +32,17 @@ You can perform transformation, intermedidate steps, actions, or final steps on 
 
 The result of a given transformation goes into the DAG bug doesn't persist to disk, but the result of an action persists all the data in memory to disk.
 
+- DataFrames
+
+A new abstraction in Spark is DataFrames, which were developed in Spark 2.0 as a companion interface to RDDs. The two are extremely similar, but DataFrames organize data into named columns, similar to Python's pandas. This makes them more user-friendly than RDDs.
+
+SparkSQL also allows users to query DataFrames much like SQL tables in relational data stores.
+
 - DAG
 
 As the RDD and related actions are being created, Spark also created a DAG, or Directed Acyclic Graphic, to visualize the order of operations and the relationship between the operations in the DAG. 
 
-
+- SparkQL
 
 
 
