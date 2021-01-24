@@ -44,7 +44,9 @@ As the RDD and related actions are being created, Spark also created a DAG, or D
 
 - SparkQL
 
+- ML
 
+MLLib
 
 
 # Here are the biggest new features in Spark 3.0
