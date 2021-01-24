@@ -18,6 +18,27 @@ It provides high-level APIs in Java, Scala, Python and R, and an optimized engin
 
 - Structured Streaming
 
+# Concepts
+
+- SparkContext
+
+Spark reads from a file on HDFS, S3 or another filestore, into an established mechanism called SparkContext.
+
+- Resilient Distributed Dataset (RDD)
+
+It represents an immutable collection of elements that can be operated on in parallel.
+
+You can perform transformation, intermedidate steps, actions, or final steps on RDDs. 
+
+The result of a given transformation goes into the DAG bug doesn't persist to disk, but the result of an action persists all the data in memory to disk.
+
+- DAG
+
+As the RDD and related actions are being created, Spark also created a DAG, or Directed Acyclic Graphic, to visualize the order of operations and the relationship between the operations in the DAG. 
+
+
+
+
 
 
 # Here are the biggest new features in Spark 3.0
