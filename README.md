@@ -42,3 +42,4 @@ It provides high-level APIs in Java, Scala, Python and R, and an optimized engin
  - [Spark 3.0 New Features](https://databricks.com/blog/2020/06/18/introducing-apache-spark-3-0-now-available-in-databricks-runtime-7-0.html)
  - [Run Spark on Kubernetes](https://spark.apache.org/docs/latest/running-on-kubernetes.html)
  - [Concept & Architecture](https://spark.apache.org/docs/latest/cluster-overview.html)
+ - https://logz.io/blog/hadoop-vs-spark/
