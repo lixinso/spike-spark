@@ -7,6 +7,18 @@ Delta Lake is an open source storage layer that brings reliability to data lake.
 
 ### Partition 
 
+```
+  def createPartitionedTable(data: DataFrame, tableName: String, Keys: String): Unit = {
+  data
+      .write
+      .partitionBy(Keys)
+      .format("delta")
+      .mode("overwrite")
+      .option("mergeSchema", "true")
+      .save("/opt/partitioned_lake/" + tableName)
+  }
+```
+
 ### Index
 
 **Indexing happens automatically** on Databricks Delta.
