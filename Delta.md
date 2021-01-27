@@ -22,3 +22,4 @@ Delta Engine provides optimized layouts and indexes for fast interactive queries
 - https://medium.com/@aravinthR/partitioned-delta-lake-part-3-5cc52b64ebda
 - https://docs.databricks.com/spark/latest/spark-sql/dataskipping-index.html
 - https://stackoverflow.com/questions/58527576/create-index-for-tables-within-delta-lake
+- https://docs.databricks.com/delta/optimizations/file-mgmt.html#data-skipping
